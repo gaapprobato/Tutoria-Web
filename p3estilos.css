@@ -1,5 +1,11 @@
 body{
 	background-color: #FCF8E5;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+a{
+	text-decoration: none;
+	color: black;
 }
 
 #logo{
@@ -104,6 +110,12 @@ body{
 	width: 180px;
 	height: 20pxpx;
 	display: inline-block;
+	transition-duration: 0.4s;
+}
+
+.btn2:hover{
+	color: #ffffff;
+	background: #00CFEF;
 }
 
 #art{
